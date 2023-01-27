@@ -1,0 +1,43 @@
+.scaleSection {
+    background: url("../../media//parallax-bg.png") center/cover;
+    min-height: 400px;
+    padding: 40px 0 !important;
+
+    .row {
+        align-items: center;
+        justify-content: flex-start;
+
+        .scaleContent {
+            text-align: center;
+
+            h1 {
+                padding: 20px 0 !important;
+                font-size: 50px;
+                font-family: 'Oswald', sans-serif;
+
+            }
+
+            h3 {
+                font-family: 'Oswald', sans-serif;
+                font-size: 30px;
+            }
+
+            h5 {
+                padding: 20px 0 !important;
+                font-size: 15px;
+                color: #666;
+                font-family: 'Roboto', sans-serif;
+
+            }
+            button{
+                padding: 10px 30px !important;
+                background-color: #384aeb;
+                color: #fff;
+                border: none;
+                cursor: pointer;
+                border-radius: 20px;
+            }
+
+        }
+    }
+}

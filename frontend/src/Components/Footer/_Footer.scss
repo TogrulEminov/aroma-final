@@ -1,0 +1,21 @@
+.footerSection{
+    padding: 20px 0 !important;
+    background-color: #05274B;
+    .row{
+        align-items: center;
+        justify-content: center;
+        .footerContent{
+            text-align: center;
+            p{
+                color: #fff;
+                font-size: 18px;
+                span{
+                    color: blue;
+                }
+                svg{
+                    margin: 0 3px !important;
+                }
+            }
+        }
+    }
+}

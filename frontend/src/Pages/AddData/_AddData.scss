@@ -1,0 +1,53 @@
+.addSection {
+    background-color: #f8f8f8;
+    min-height: 600px;
+    text-align: center;
+    padding: 40px 0 !important;
+
+    .row {
+        align-items: center;
+        justify-content: center;
+
+        .addForm {
+            border: 1px solid #ddd;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+            form {
+                width: 100%;
+                padding: 10px !important;
+
+                .inputs {
+                    padding: 20px 0 !important;
+
+                    .headingName {
+                        font-size: 20px;
+                        color: #666;
+                        padding-bottom: 10px !important;
+                    }
+
+                    input {
+                        padding: 6px 10px !important;
+                        border: 1px solid #ddd;
+                        outline: none;
+                        width: 100%;
+                    }
+
+                    p {
+                        font-size: 20px;
+                        color: red;
+                        padding-top: 10px !important;
+                    }
+                }
+            }
+
+            button {
+                padding: 10px 30px !important;
+               background-color: #111;
+                margin: 10px 0 !important;
+                color: #fff;
+                font-size: 20px;
+                line-height: 25px;
+            }
+        }
+    }
+}

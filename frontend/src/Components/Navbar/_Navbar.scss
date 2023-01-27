@@ -1,0 +1,89 @@
+.allNavbar {
+    padding: 20px 0 !important;
+    border-bottom: 1px solid #ddd;
+
+    .row {
+        justify-content: space-between;
+        align-items: center;
+
+        .navbarCenter {
+            ul {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                li {
+                    margin: 0 10px !important;
+
+                    a {
+                        font-size: 15px;
+                        color: rgb(34, 34, 34);
+                        position: relative;
+                        font-family: 'Roboto', sans-serif;
+
+                        &:before {
+                            content: "";
+                            position: absolute;
+                            width: 100%;
+                            height: 2px;
+                            bottom: 0;
+                            margin: -5px 0;
+                            background-color: rgb(56, 74, 235);
+                            visibility: hidden;
+                            transform: scaleX(0);
+                            transition: all 0.4s ease-in-out 0s;
+                        }
+
+                        &:hover:before {
+                            visibility: visible;
+                            transform: scaleX(1);
+                        }
+                    }
+                }
+            }
+        }
+
+        .navbarRight {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+
+            .searchInput {
+                position: relative;
+
+                svg {
+                    color: rgb(34, 34, 34);
+                    font-size: 23px;
+                    cursor: pointer;
+                }
+
+                form {
+                    display: lv;
+                    position: absolute;
+                    background-color: #fff;
+                    top: 46px;
+                    right: 0px;
+                    min-width: 200px;
+                    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                    padding: 10px 20px !important;
+
+                    input {
+                        border: 1px solid #ddd;
+                        outline: rgb(173, 255, 202);
+                        width: 100%;
+                        padding: 4px 10px !important;
+                    }
+                }
+            }
+
+            button {
+                padding: 10px 30px !important;
+                background-color: rgb(56, 74, 235);
+                color: #fff;
+                border: none;
+                border-radius: 10px;
+            }
+        }
+    }
+}

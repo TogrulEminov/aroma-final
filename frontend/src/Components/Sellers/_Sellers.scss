@@ -1,0 +1,84 @@
+.sellerSection {
+    padding: 40px 0 !important;
+
+    .headerTitle {
+        h3 {
+            font-size: 15px;
+            color: #666;
+            font-weight: 600;
+            padding-bottom: 20px !important;
+        }
+
+        h1 {
+            font-size: 40px;
+            color: #111;
+            font-weight: 600;
+        }
+
+        .headerLine {
+            height: 2px;
+            background-color: rgb(56, 74, 235);
+            width: 120px;
+            position: relative;
+            left: 100px;
+            top: 10px;
+        }
+    }
+
+    .sellerCard {
+        padding: 60px 0 !important;
+
+        .swiper-slide {
+            width: 430px !important;
+            margin: 0 10px !important;
+        }
+
+        .card {
+            width: 100%;
+            margin: 10px 0 !important;
+            text-align: center;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+            .headerImage {
+                width: 100%;
+                height: 300px;
+
+                img {
+                    height: 300px;
+                    object-fit: cover;
+                    width: 100%;
+                }
+            }
+
+            h5 {
+                padding: 10px 0 !important;
+                font-size: 15px;
+                color: #666;
+                font-family: 'Roboto', sans-serif;
+
+            }
+
+            h3 {
+                font-family: 'Oswald', sans-serif;
+                font-size: 20px;
+                padding-bottom: 10px !important;
+                color: rgb(34, 34, 34);
+            }
+
+            h4 {
+                color: #666;
+                font-family: 'Roboto', sans-serif;
+                font-size: 18px;
+                font-weight: 600;
+            }
+
+            button {
+                border: none;
+                font-size: 20px;
+                color: red;
+                padding: 10px 0 !important;
+                background-color: transparent;
+            }
+        }
+    }
+}
